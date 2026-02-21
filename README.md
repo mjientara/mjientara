@@ -1,8 +1,9 @@
+
 <div align="center">
 
 # Marcel Jientara
 
-**Founder & CTO · AI Builder · Writer**
+**Founder · AI Builder · Writer**
 
 Building at the intersection of artificial intelligence, product, and the future of work.
 
