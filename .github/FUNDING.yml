@@ -1,0 +1,8 @@
+# Support Marcel's writing and open source work
+# This file adds a "Sponsor" button to the repository on GitHub
+
+# Supported platforms:
+# github, patreon, open_collective, ko_fi, tidelift, community_bridge, liberapay, issuehunt, otechie, lfx_crowdfunding, custom
+
+custom:
+  - https://mjientara.substack.com   # Subscribe on Substack to support the writing
