@@ -1,0 +1,36 @@
+name: Update README with latest Substack posts
+
+on:
+  schedule:
+    # Runs every day at 08:00 UTC (05:00 São Paulo time)
+    - cron: '0 8 * * *'
+  workflow_dispatch: # allows manual trigger
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install feedparser requests
+
+      - name: Fetch latest Substack posts and update README
+        run: python .github/scripts/update_posts.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update latest posts from Substack [skip ci]"
+          git push
