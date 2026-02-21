@@ -17,7 +17,7 @@ Building at the intersection of artificial intelligence, product, and the future
 
 ## About
 
-Tech entrepreneur, $40M+ raised building AI products. Founder of [Alana AI](https://alana.ai) — one of Brazil's pioneering conversational AI companies. Currently writing [Ahead by AI Design](https://mjientara.substack.com): long-form essays on AI, cognition, and the future of work.
+Tech entrepreneur, $30M+ raised building AI products. Founder of [Alana AI](https://alana.ai) — one of Brazil's pioneering conversational AI companies. Currently writing [Ahead by AI Design](https://mjientara.substack.com): long-form essays on AI, cognition, and the future of work.
 
 I write about what I build, break, and learn — from Auth0 migrations completed in under an hour with Claude Code, to productivity systems that replace enterprise bloatware. No marketing fluff. Just tools, frameworks, and honest takes for technical founders.
 
